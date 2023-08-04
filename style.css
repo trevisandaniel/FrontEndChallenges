@@ -16,8 +16,11 @@ font-family: 'Lexend Deca', sans-serif;
 .container{
     display: flex;
     margin: 200px auto;
-    max-width: 1440px;
-    width: 100%;
+    /*max-width: 1440px;
+    width: 100%;*/
+    align-items: center;
+    justify-content: center;
+    /*margin: 0 auto;*/
 }
 
 .container h1{
@@ -38,7 +41,8 @@ font-family: 'Lexend Deca', sans-serif;
     display: flex;
     flex-direction: column;
     padding: 50px;
-    justify-content: flex-start;
+    max-width: 200px;
+    justify-content: flex-start
 }
 
 .sedan{
